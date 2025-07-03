@@ -8,7 +8,7 @@ include 'csrf.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>IoT Aja</title>
+    <title>Smart Agro Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -27,7 +27,7 @@ include 'csrf.php';
 
     <div class="login-wrapper">
         <div class="login-box">
-            <h3 class="text-center mb-4 fw-bold">Bubub Jelek</h3>
+            <h3 class="text-center mb-4 fw-bold">Smart Agro</h3>
 
             <?php if (isset($_SESSION['error'])): ?>
                 <div class="alert alert-danger">
