@@ -1,9 +1,9 @@
 # File log
-functions/log.txt
+# functions/log.txt
 
 # File khusus server
-deploy.php
+# deploy.php
 
 # File konfigurasi lokal
-.env
-config-local.php
+# .env
+# config-local.php
