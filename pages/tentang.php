@@ -7,7 +7,7 @@
             <div class="card-custom p-4 text-center">
                 <h5 class="fw-bold mb-3">Alvin Putra Nurtan</h5>
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="assets/foto/alvin.jpg" class="rounded-circle me-4" width="100" height="100"
+                    <img src="assets/foto/alvin.webp" class="rounded-circle me-4" width="100" height="100"
                         style="object-fit: cover;">
                     <p class="fw-semibold fs-5 mb-0">Chief Executive Officer<br>(Politeknik Negeri Semarang)</p>
                 </div>

@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../foto/background.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../foto/background.webp") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
