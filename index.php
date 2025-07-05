@@ -51,7 +51,8 @@ if (!file_exists($pageFile)) {
                 'kontrol' => ['Kontrol', 'fa-sliders-h'],
                 'perangkat' => ['Perangkat', 'fa-microchip'],
                 'grafik' => ['Grafik', 'fa-chart-line'],
-                'marketplace' => ['Agro Jual', 'fa-store'],
+                'agrosupply' => ['Agro Supply', 'fa-cart-shopping'],
+                'agrojual' => ['Agro Jual', 'fa-store'],
                 'tentang' => ['Tentang', 'fa-id-card']
             ];
             foreach ($menu as $slug => [$label, $icon]) {

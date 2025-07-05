@@ -23,7 +23,7 @@
             <div class="card-custom p-4 text-center">
                 <h5 class="fw-bold mb-3">Arsyfa Auralia Hasan</h5>
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="assets/foto/syfa.jpg" class="rounded-circle me-4" width="100" height="100"
+                    <img src="assets/foto/syfa.webp" class="rounded-circle me-4" width="100" height="100"
                         style="object-fit: cover;">
                     <p class="fw-semibold fs-5 mb-0">Chief Financial Officer<br>(Universitas BPD Semarang)</p>
                 </div>

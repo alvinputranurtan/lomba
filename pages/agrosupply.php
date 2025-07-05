@@ -32,7 +32,7 @@ $products = [
     <div class="row">
         <?php foreach ($products as $product): ?>
             <div class="col-md-3 mb-4">
-                <div class="card h-100 shadow-sm">
+                <div class="card card-custom h-100 shadow-sm">
                     <div style="aspect-ratio: 1/1; overflow: hidden;">
                         <img src="<?php echo $product['image']; ?>" class="card-img-top"
                             alt="<?php echo $product['name']; ?>" style="width: 100%; height: 100%; object-fit: cover;">
