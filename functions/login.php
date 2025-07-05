@@ -8,7 +8,7 @@ include 'csrf.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Smart Agro Login</title>
+    <title>Smart Agro Loginn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
