@@ -1,21 +1,6 @@
 <div class="container my-4">
     <div class="row g-4 justify-content-center">
 
-        <!-- Dosen -->
-        <div class="col-md-8 col-12 position-relative">
-            <div class="card-custom p-4 text-center">
-                <h5 class="fw-bold mb-3">Dr. Eng. Ir. Irfan Mujahidin, S.T., M.T., M.,Sc., IPP</h5>
-                <div class="d-flex align-items-center justify-content-center">
-                    <img src="assets/foto/irfan.jpg" class="rounded-circle me-4" width="100" height="100"
-                        style="object-fit: cover;">
-                    <p class="fw-semibold fs-5 mb-0">Project Supervisor (Dosen)</p>
-                </div>
-                <a href="https://wa.me/818087472301" target="_blank" class="position-absolute"
-                    style="bottom: 15px; right: 20px;">
-                    <i class="fa-brands fa-whatsapp fa-3x text-success"></i>
-                </a>
-            </div>
-        </div>
 
         <!-- Alvin -->
         <div class="col-md-5 col-12 position-relative">
@@ -24,7 +9,7 @@
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="assets/foto/alvin.jpg" class="rounded-circle me-4" width="100" height="100"
                         style="object-fit: cover;">
-                    <p class="fw-semibold fs-5 mb-0">Lead Engineer (Mahasiswa)</p>
+                    <p class="fw-semibold fs-5 mb-0">Chief Executive Officer<br>(Politeknik Negeri Semarang)</p>
                 </div>
                 <a href="https://wa.me/62882007085761" target="_blank" class="position-absolute"
                     style="bottom: 15px; right: 20px;">
@@ -36,13 +21,13 @@
         <!-- Rifki -->
         <div class="col-md-5 col-12 position-relative">
             <div class="card-custom p-4 text-center">
-                <h5 class="fw-bold mb-3">Rifki Afrizal</h5>
+                <h5 class="fw-bold mb-3">Arsyfa Auralia Hasan</h5>
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="assets/foto/rifki.jpg" class="rounded-circle me-4" width="100" height="100"
+                    <img src="assets/foto/syfa.jpg" class="rounded-circle me-4" width="100" height="100"
                         style="object-fit: cover;">
-                    <p class="fw-semibold fs-5 mb-0">Assistant Engineer (Mahasiswa)</p>
+                    <p class="fw-semibold fs-5 mb-0">Chief Financial Officer<br>(Universitas BPD Semarang)</p>
                 </div>
-                <a href="https://wa.me/6283842373882" target="_blank" class="position-absolute"
+                <a href="https://wa.me/62882003080682" target="_blank" class="position-absolute"
                     style="bottom: 15px; right: 20px;">
                     <i class="fa-brands fa-whatsapp fa-3x text-success"></i>
                 </a>
