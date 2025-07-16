@@ -8,7 +8,7 @@ include 'csrf.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Smart Agro Loginn</title>
+    <title>Smart Agro Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -43,8 +43,16 @@ include 'csrf.php';
                 <input type="password" name="password" placeholder="Password" required class="form-control-custom mb-3">
                 <button type="submit" class="btn btn-login w-100">Login</button>
             </form>
+
+            <!-- Disclaimer di bawah -->
+            <p class="text-muted text-center mt-4" style="font-size: 0.875rem;">
+                Data login sementara:<br>
+                <strong>Username:</strong> admin<br>
+                <strong>Password:</strong> admin
+            </p>
         </div>
     </div>
+
 
     <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
