@@ -6,9 +6,9 @@
 
 // Koneksi DB
 $host = 'telkomambis.com';
-$user = 'telkomam_iotaja';
-$password = 'iotaja420##';
-$dbname = 'telkomam_iotaja';
+$user = 'telkomam_lomba';
+$password = 'iotaja6969!';
+$dbname = 'telkomam_lomba';
 
 $conn = new mysqli($host, $user, $password, $dbname);
 if ($conn->connect_error) {

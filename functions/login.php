@@ -47,8 +47,8 @@ include 'csrf.php';
             <!-- Disclaimer di bawah -->
             <p class="text-muted text-center mt-4" style="font-size: 0.875rem;">
                 Data login sementara:<br>
-                <strong>Username:</strong> admin<br>
-                <strong>Password:</strong> admin
+                <strong>Sebagai Mitra: </strong> Username: admin, Password: admin<br>
+                <strong>Sebagai Non-Mitra:</strong> Username: user, Password: user
             </p>
         </div>
     </div>

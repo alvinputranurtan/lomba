@@ -41,11 +41,14 @@ if (!file_exists($pageFile)) {
         </div>
     </div>
 
-    <!-- SIDEBAR -->
     <div id="sidebar" class="sidebar">
         <div class="sidebar-header"></div>
         <ul class="nav flex-column">
             <?php
+            // Contoh: role disimpan di $_SESSION['role'], pastikan sebelumnya sudah session_start()
+            $role = $_SESSION['role'] ?? 'user'; // default 'user' kalau belum login
+            
+            // Daftar semua menu
             $menu = [
                 'dashboard' => ['Dashboard', 'fa-house'],
                 'kontrol' => ['Kontrol', 'fa-sliders-h'],
@@ -55,16 +58,27 @@ if (!file_exists($pageFile)) {
                 'agrojual' => ['Agro Jual', 'fa-store'],
                 'tentang' => ['Tentang', 'fa-id-card']
             ];
+
+            // Batasi menu untuk user biasa
+            if ($role !== 'admin') {
+                $menu = array_filter($menu, function ($key) {
+                    return in_array($key, ['agrojual', 'tentang']);
+                }, ARRAY_FILTER_USE_KEY);
+            }
+
+            // Tampilkan menu
             foreach ($menu as $slug => [$label, $icon]) {
                 $active = ($page === $slug) ? 'active' : '';
                 echo "
-                <li class='nav-item'>
-                    <a href='#' class='nav-link menu-link $active' data-page='{$slug}.php' data-title='{$label}'>
-                        <i class='fa-solid {$icon} me-2'></i> {$label}
-                    </a>
-                </li>";
+            <li class='nav-item'>
+                <a href='#' class='nav-link menu-link $active' data-page='{$slug}.php' data-title='{$label}'>
+                    <i class='fa-solid {$icon} me-2'></i> {$label}
+                </a>
+            </li>";
             }
             ?>
+
+            <!-- Logout selalu muncul -->
             <li class="nav-item">
                 <a href="functions/logout.php" class="nav-link">
                     <i class="fa-solid fa-right-from-bracket me-2"></i> Logout

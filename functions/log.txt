@@ -82,3 +82,26 @@
 [2025-07-05 09:39:40] User alvin login sukses.
 [2025-07-05 10:52:22] User alvin login sukses.
 [2025-07-09 15:59:10] User alvin login sukses.
+[2025-07-16 14:57:53] User admin login sukses.
+[2025-07-16 14:58:09] User admin logout.
+[2025-07-16 15:10:06] User admin login sukses.
+[2025-07-16 15:12:58] User admin logout.
+[2025-07-16 15:16:49] User admin login sukses.
+[2025-07-16 15:16:53] User admin logout.
+[2025-07-16 15:16:55] User admin login sukses.
+[2025-07-16 15:16:59] User admin logout.
+[2025-07-16 15:18:55] User user login sukses.
+[2025-07-16 15:21:02] User user logout.
+[2025-07-16 15:21:04] User user login sukses.
+[2025-07-16 15:21:17] User user logout.
+[2025-07-16 15:21:19] User user login sukses.
+[2025-07-16 15:24:29] User user logout.
+[2025-07-16 15:24:31] Login sukses untuk user user (role: user)
+[2025-07-16 15:25:52] User user logout.
+[2025-07-16 15:25:54] Login sukses untuk user user (role: user)
+[2025-07-16 15:25:59] User user logout.
+[2025-07-16 15:26:04] Login sukses untuk user admin (role: admin)
+[2025-07-16 15:26:11] User admin logout.
+[2025-07-16 15:26:16] Login sukses untuk user user (role: user)
+[2025-07-16 15:26:21] User user logout.
+[2025-07-16 15:28:57] Login sukses untuk user user (role: user)
