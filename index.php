@@ -4,15 +4,15 @@ include 'functions/functions.php';
 
 // Proteksi halaman: wajib login
 if (!isset($_SESSION['user_id'])) {
-    header("Location: functions/login.php");
+    header('Location: functions/login.php');
     exit;
 }
 
 $page = $_GET['page'] ?? 'dashboard';
 $pageFile = "pages/$page.php";
 if (!file_exists($pageFile)) {
-    $pageFile = "pages/404.php";
-    $page = "404";
+    $pageFile = 'pages/404.php';
+    $page = '404';
 }
 ?>
 
@@ -21,7 +21,7 @@ if (!file_exists($pageFile)) {
 
 <head>
     <meta charset="UTF-8">
-    <title><?= ucfirst($page) ?> - Dashboard</title>
+    <title><?php echo ucfirst($page); ?> - Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
@@ -37,7 +37,7 @@ if (!file_exists($pageFile)) {
             <div class="toggle-icon d-flex align-items-center p-0">
                 <i class="fa-solid fa-bars toggle-sidebar"></i>
             </div>
-            <div class="toggle-title d-flex align-items-center"><?= ucfirst($page) ?></div>
+            <div class="toggle-title d-flex align-items-center"><?php echo ucfirst($page); ?></div>
         </div>
     </div>
 
@@ -47,36 +47,37 @@ if (!file_exists($pageFile)) {
             <?php
             // Contoh: role disimpan di $_SESSION['role'], pastikan sebelumnya sudah session_start()
             $role = $_SESSION['role'] ?? 'user'; // default 'user' kalau belum login
-            
-            // Daftar semua menu
-            $menu = [
-                'dashboard' => ['Dashboard', 'fa-house'],
-                'kontrol' => ['Kontrol', 'fa-sliders-h'],
-                'perangkat' => ['Perangkat', 'fa-microchip'],
-                'grafik' => ['Grafik', 'fa-chart-line'],
-                'agrosupply' => ['Agro Supply', 'fa-cart-shopping'],
-                'agrojual' => ['Agro Jual', 'fa-store'],
-                'tentang' => ['Tentang', 'fa-id-card']
-            ];
 
-            // Batasi menu untuk user biasa
-            if ($role !== 'admin') {
-                $menu = array_filter($menu, function ($key) {
-                    return in_array($key, ['agrojual', 'tentang']);
-                }, ARRAY_FILTER_USE_KEY);
-            }
+// Daftar semua menu
+$menu = [
+    'dashboard' => ['Dashboard', 'fa-house'],
+    'kontrol' => ['Kontrol', 'fa-sliders-h'],
+    'perangkat' => ['Perangkat', 'fa-microchip'],
+    'grafik' => ['Grafik', 'fa-chart-line'],
+    'ai' => ['AI', 'fa-robot'],
+    'agrosupply' => ['Agro Supply', 'fa-cart-shopping'],
+    'agrojual' => ['Agro Jual', 'fa-store'],
+    'tentang' => ['Tentang', 'fa-id-card'],
+];
 
-            // Tampilkan menu
-            foreach ($menu as $slug => [$label, $icon]) {
-                $active = ($page === $slug) ? 'active' : '';
-                echo "
+// Batasi menu untuk user biasa
+if ($role !== 'admin') {
+    $menu = array_filter($menu, function ($key) {
+        return in_array($key, ['agrojual', 'tentang']);
+    }, ARRAY_FILTER_USE_KEY);
+}
+
+// Tampilkan menu
+foreach ($menu as $slug => [$label, $icon]) {
+    $active = ($page === $slug) ? 'active' : '';
+    echo "
             <li class='nav-item'>
                 <a href='#' class='nav-link menu-link $active' data-page='{$slug}.php' data-title='{$label}'>
                     <i class='fa-solid {$icon} me-2'></i> {$label}
                 </a>
             </li>";
-            }
-            ?>
+}
+?>
 
             <!-- Logout selalu muncul -->
             <li class="nav-item">
