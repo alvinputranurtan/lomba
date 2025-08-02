@@ -59,8 +59,7 @@
 
         <!-- 4. Hidupkan Sprayer Berdasarkan Jam -->
         <div class="col-md-6 col-12">
-            <div
-                class="card-custom-control p-4 position-relative d-flex flex-column justify-content-center h-100 rounded">
+            <div class="card-custom-control p-4 text-center">
                 <h5 class="text-center mb-4">Hidupkan Sprayer Berdasarkan Jam</h5>
 
                 <div class="d-flex flex-column flex-md-row align-items-center">
@@ -84,7 +83,7 @@
                     </div>
 
                     <!-- TOMBOL -->
-                    <div class="d-flex justify-content-center align-items-center flex-shrink-0 mt-4 mt-md-0">
+                    <div class="d-flex justify-content-center align-items-center flex-shrink-0">
                         <div class="circle-button">Hidup</div>
                     </div>
                 </div>

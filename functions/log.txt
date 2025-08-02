@@ -109,3 +109,4 @@
 [2025-08-02 05:52:34] Login sukses untuk user user (role: user)
 [2025-08-02 05:52:38] User user logout.
 [2025-08-02 05:52:47] Login sukses untuk user admin (role: admin)
+[2025-08-02 06:18:56] Login sukses untuk user admin (role: admin)

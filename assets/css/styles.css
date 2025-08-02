@@ -68,17 +68,19 @@ body {
 }
 
 .circle-button {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  max-width: 150px;
+  min-width: 100px;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   background-color: #00bb00;
   color: #fff;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2.2vw, 1.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .form-control-custom {

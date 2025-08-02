@@ -84,17 +84,19 @@ body {
 }
 
 .circle-button {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  max-width: 150px;
+  min-width: 100px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   background-color: $circle-btn-bg;
   color: #fff;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: clamp(1.0rem, 2.2vw, 1.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
   // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
