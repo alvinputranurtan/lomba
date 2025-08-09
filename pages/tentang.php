@@ -1,10 +1,9 @@
 <div class="container my-4">
     <div class="row g-4 justify-content-center">
 
-
-        <!-- Alvin -->
-        <div class="col-md-5 col-12 position-relative">
-            <div class="card-custom p-4 text-center">
+            <!-- Dosen -->
+        <div class="col-md-8 col-12 position-relative">
+             <div class="card-custom p-4 text-center">
                 <h5 class="fw-bold mb-3">Alvin Putra Nurtan</h5>
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="assets/foto/alvin.webp" class="rounded-circle me-4" width="100" height="100"
@@ -18,9 +17,9 @@
             </div>
         </div>
 
-        <!-- Rifki -->
+        <!-- Alvin -->
         <div class="col-md-5 col-12 position-relative">
-            <div class="card-custom p-4 text-center">
+                       <div class="card-custom p-4 text-center">
                 <h5 class="fw-bold mb-3">Arsyfa Auralia Hasan</h5>
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="assets/foto/syfa.webp" class="rounded-circle me-4" width="100" height="100"
@@ -28,6 +27,22 @@
                     <p class="fw-semibold fs-5 mb-0">Chief Financial Officer<br>(Universitas BPD Semarang)</p>
                 </div>
                 <a href="https://wa.me/62882003080682" target="_blank" class="position-absolute"
+                    style="bottom: 15px; right: 20px;">
+                    <i class="fa-brands fa-whatsapp fa-3x text-success"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Rifki -->
+        <div class="col-md-5 col-12 position-relative">
+            <div class="card-custom p-4 text-center">
+                <h5 class="fw-bold mb-3">Nikmatul Jazilah</h5>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="assets/foto/zila.webp" class="rounded-circle me-4" width="100" height="100"
+                        style="object-fit: cover;">
+                    <p class="fw-semibold fs-5 mb-0">Chief Marketing Officer<br>(Universitas BPD Semarang)</p>
+                </div>
+                <a href="https://wa.me/6281226991426" target="_blank" class="position-absolute"
                     style="bottom: 15px; right: 20px;">
                     <i class="fa-brands fa-whatsapp fa-3x text-success"></i>
                 </a>
